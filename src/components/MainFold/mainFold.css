@@ -1,0 +1,50 @@
+.main-fold{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.main-fold-content{
+    max-width: 40%;
+    margin-left: 80px;
+    color: #333438;
+}
+
+.main-fold-title{
+    font-size:96px;
+    font-weight: 800;
+}
+
+.main-fold-description{
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 85%;
+    font-weight: 300;
+    margin-top: 24px;
+}
+
+.main-fold-price-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.main-fold-btn{
+    background-color: #f56e01;
+    color: var(--white);
+    padding: 16px 50px;
+    border-radius: 8px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.main-fold-price{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    
+}
